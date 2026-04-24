@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<yml_catalog date="2026-04-24 21:13">
+  <shop>
+    <name>StekloRoll</name>
+    <company>StekloRoll</company>
+    <url>https://stekloroll.ru</url>
+    <currencies>
+      <currency id="RUB" rate="1"/>
+    </currencies>
+    <categories>
+      <category id="1">Прозрачные рольставни</category>
+      <category id="2">Безрамное остекление</category>
+      <category id="3">Цельностеклянные перегородки</category>
+      <category id="4">Роллетные шкафы</category>
+      <category id="5">Защитные рольставни</category>
+    </categories>
+    <offers>
+      <offer id="957708253232" available="true">
+        <url>https://stekloroll.ru/tproduct/957708253232-bezramnoe-osteklenie-stekloroll-3000x24</url>
+        <price>108000.00</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>2</categoryId>
+        <picture>https://static.tildacdn.com/stor3430-6164-4764-a165-343465303731/43535062.jpg</picture>
+        <vendor>StekloRoll</vendor>
+        <vendorCode>SR-GL-3000x2400</vendorCode>
+        <name>Безрамное остекление StekloRoll 3000x2400 мм</name>
+        <description>Типовая позиция безрамного остекления для террас, веранд и беседок. В комплекте закаленное стекло 10 мм, профиль и фурнитура. Цена указана за изделие размером 3000x2400 мм. Доступны другие конфигурации и размеры.</description>
+        <sales_notes>Монтаж и дополнительные опции рассчитываются отдельно.</sales_notes>
+        <param name="Ширина">3000 мм</param>
+        <param name="Высота">2400 мм</param>
+        <param name="Материал">Закаленное стекло 10 мм</param>
+      </offer>
+      <offer id="221295256522" available="true">
+        <url>https://stekloroll.ru/tproduct/221295256522-steklyannaya-peregorodka-stekloroll-300</url>
+        <price>108000.00</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>3</categoryId>
+        <picture>https://static.tildacdn.com/stor3234-6636-4839-b131-316162643866/39e8b0fdfb3076441a42803919fadb44.jpg</picture>
+        <vendor>StekloRoll</vendor>
+        <vendorCode>SR-GP-3000x2400</vendorCode>
+        <name>Цельностеклянная перегородка StekloRoll 3000x2400 мм</name>
+        <description>Типовая стеклянная перегородка для жилых и коммерческих помещений. Цена указана за изделие размером 3000x2400 мм в стандартной комплектации. Доступны другие конфигурации по запросу.</description>
+        <sales_notes>Монтаж и дополнительные опции рассчитываются отдельно.</sales_notes>
+        <param name="Ширина">3000 мм</param>
+        <param name="Высота">2400 мм</param>
+        <param name="Материал">Закаленное стекло</param>
+      </offer>
+      <offer id="337219104302" available="true">
+        <url>https://stekloroll.ru/tproduct/337219104302-prozrachnie-rolstavni-stekloroll-3000</url>
+        <price>97200.00</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>1</categoryId>
+        <picture>https://static.tildacdn.com/stor3734-3735-4137-b562-333163343133/64374923.jpg</picture>
+        <vendor>StekloRoll</vendor>
+        <vendorCode>SR-RS-3000x2400-MAN</vendorCode>
+        <name>Прозрачные рольставни StekloRoll 3000x2400 мм ручной привод</name>
+        <description>Типовая позиция прозрачных рольставней из монолитного поликарбоната. Цена указана за готовое изделие размером 3000x2400 мм с ручным приводом. Доступны дополнительные варианты цвета и автоматизации.</description>
+        <sales_notes>Пульт и кнопка для автоматизации приобретаются отдельно.</sales_notes>
+        <param name="Ширина">3000 мм</param>
+        <param name="Высота">2400 мм</param>
+        <param name="Материал">Монолитный поликарбонат</param>
+        <param name="Тип привода">Ручной</param>
+      </offer>
+      <offer id="327594126102" available="true">
+        <url>https://stekloroll.ru/tproduct/327594126102-prozrachnie-rolstavni-dlya-vitrini-ste</url>
+        <price>104400.00</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>1</categoryId>
+        <picture>https://static.tildacdn.com/stor3235-3931-4536-a164-373965393838/24516553.jpg</picture>
+        <vendor>StekloRoll</vendor>
+        <vendorCode>SR-RS-3000x2400-AUTO</vendorCode>
+        <name>Прозрачные рольставни StekloRoll 3000x2400 мм электропривод</name>
+        <description>Типовая позиция прозрачных рольставней из монолитного поликарбоната для витрин, террас и проемов. Цена указана за готовое изделие размером 3000x2400 мм с электроприводом.</description>
+        <sales_notes>Пульт и кнопка управления приобретаются отдельно.</sales_notes>
+        <param name="Ширина">3000 мм</param>
+        <param name="Высота">2400 мм</param>
+        <param name="Материал">Монолитный поликарбонат</param>
+        <param name="Тип привода">Электрический</param>
+      </offer>
+      <offer id="908091284692" available="true">
+        <url>https://stekloroll.ru/tproduct/908091284692-rolletnii-shkaf-stekloroll-m-1700x2000</url>
+        <price>68000.00</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>4</categoryId>
+        <picture>https://static.tildacdn.com/stor6436-6434-4137-b164-643638653231/69195513.jpg</picture>
+        <vendor>StekloRoll</vendor>
+        <vendorCode>SR-PS-M-1700x2000x600</vendorCode>
+        <name>Роллетный шкаф StekloRoll M 1700x2000x600 мм</name>
+        <description>Типовой роллетный шкаф для паркинга и кладовых зон. Цена указана за шкаф размером 1700x2000x600 мм в стандартной комплектации.</description>
+        <sales_notes>Дополнительные полки и внутреннее оснащение рассчитываются отдельно.</sales_notes>
+        <param name="Ширина">1700 мм</param>
+        <param name="Высота">2000 мм</param>
+        <param name="Глубина">600 мм</param>
+      </offer>
+      <offer id="680844086402" available="true">
+        <url>https://stekloroll.ru/tproduct/680844086402-rolletnii-shkaf-stekloroll-l-2500x2000x</url>
+        <price>85000.00</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>4</categoryId>
+        <picture>https://static.tildacdn.com/stor3833-3866-4566-b930-636532663739/38166380.jpg</picture>
+        <vendor>StekloRoll</vendor>
+        <vendorCode>SR-PS-L-2500x2000x600</vendorCode>
+        <name>Роллетный шкаф StekloRoll L 2500x2000x600 мм</name>
+        <description>Типовой роллетный шкаф для машиноместа и подсобного хранения. Цена указана за шкаф размером 2500x2000x600 мм в стандартной комплектации.</description>
+        <sales_notes>Дополнительные полки и внутреннее оснащение рассчитываются отдельно.</sales_notes>
+        <param name="Ширина">2500 мм</param>
+        <param name="Высота">2000 мм</param>
+        <param name="Глубина">600 мм</param>
+      </offer>
+      <offer id="332153607012" available="true">
+        <url>https://stekloroll.ru/tproduct/332153607012-rolletnii-shkaf-stekloroll-xl-5000x200</url>
+        <price>105000.00</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>4</categoryId>
+        <picture>https://static.tildacdn.com/stor3963-3432-4865-a665-316131623132/32280413.jpg</picture>
+        <vendor>StekloRoll</vendor>
+        <vendorCode>SR-PS-XL-5000x2000x900</vendorCode>
+        <name>Роллетный шкаф StekloRoll XL 5000x2000x900 мм</name>
+        <description>Типовой роллетный шкаф увеличенного размера для паркинга и коммерческого хранения. Цена указана за шкаф размером 5000x2000x900 мм в стандартной комплектации.</description>
+        <sales_notes>Дополнительные полки и внутреннее оснащение рассчитываются отдельно.</sales_notes>
+        <param name="Ширина">5000 мм</param>
+        <param name="Высота">2000 мм</param>
+        <param name="Глубина">900 мм</param>
+      </offer>
+      <offer id="904973672482" available="true">
+        <url>https://stekloroll.ru/tproduct/904973672482-zaschitnie-rolstavni-stekloroll-na-okno</url>
+        <price>22000.00</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>5</categoryId>
+        <picture>https://static.tildacdn.com/stor3262-3335-4266-a165-323564303634/72440766.jpg</picture>
+        <vendor>StekloRoll</vendor>
+        <vendorCode>SR-SH-W1400x1200</vendorCode>
+        <name>Защитные рольставни StekloRoll на окна 1400x1200 мм</name>
+        <description>Типовая позиция защитных рольставней для оконных проемов. Цена указана за изделие размером 1400x1200 мм в стандартной комплектации.</description>
+        <sales_notes>Доступны ручной и автоматический варианты управления.</sales_notes>
+        <param name="Ширина">1400 мм</param>
+        <param name="Высота">1200 мм</param>
+      </offer>
+      <offer id="228129704172" available="true">
+        <url>https://stekloroll.ru/tproduct/228129704172-zaschitnie-rolstavni-stekloroll-na-dver</url>
+        <price>32000.00</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>5</categoryId>
+        <picture>https://static.tildacdn.com/stor3635-3334-4663-a637-373939383036/62251820.jpg</picture>
+        <vendor>StekloRoll</vendor>
+        <vendorCode>SR-SH-D1200x2200</vendorCode>
+        <name>Защитные рольставни StekloRoll на двери 1200x2200 мм</name>
+        <description>Типовая позиция защитных рольставней для дверных проемов. Цена указана за изделие размером 1200x2200 мм в стандартной комплектации.</description>
+        <sales_notes>Доступны ручной и автоматический варианты управления.</sales_notes>
+        <param name="Ширина">1200 мм</param>
+        <param name="Высота">2200 мм</param>
+      </offer>
+      <offer id="417490735842" available="true">
+        <url>https://stekloroll.ru/tproduct/417490735842-zaschitnie-rolstavni-stekloroll-dlya-ga</url>
+        <price>58000.00</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>5</categoryId>
+        <picture>https://static.tildacdn.com/stor3132-3465-4836-a366-366436346332/33230642.jpg</picture>
+        <vendor>StekloRoll</vendor>
+        <vendorCode>SR-SH-G3200x2500</vendorCode>
+        <name>Защитные рольставни StekloRoll для гаража 3200x2500 мм</name>
+        <description>Типовая позиция защитных рольставней для гаражных проемов. Цена указана за изделие размером 3200x2500 мм в стандартной комплектации.</description>
+        <sales_notes>Доступны ручной и автоматический варианты управления.</sales_notes>
+        <param name="Ширина">3200 мм</param>
+        <param name="Высота">2500 мм</param>
+      </offer>
+    </offers>
+  </shop>
+</yml_catalog>
