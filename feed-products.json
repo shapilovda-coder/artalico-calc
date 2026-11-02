@@ -1,0 +1,82 @@
+[
+  {
+    "id": "221295256522",
+    "sku": "SR-GL-3000x2400",
+    "url": "https://stekloroll.ru/razdvizhnoe_bezramnoe_osteklenie/tproduct/1321766971-221295256522-tselnosteklyannaya-peregorodka-steklorol/",
+    "category": "partitions",
+    "parameters": [
+      {
+        "title": "Материал",
+        "value": "Закалённое стекло, фурнитура, профиль"
+      },
+      {
+        "title": "Регион монтажа",
+        "value": "Москва и Московская область"
+      },
+      {
+        "title": "Изготовление",
+        "value": "Под заказ, срок изготовления 14–21 рабочих дней"
+      }
+    ]
+  },
+  {
+    "id": "957708253232",
+    "sku": "SR-FG-3000x2400",
+    "url": "https://stekloroll.ru/razdvizhnoe_bezramnoe_osteklenie/tproduct/1321766971-957708253232-bezramnoe-osteklenie-stekloroll-3000x240/",
+    "category": "frameless",
+    "parameters": [
+      {
+        "title": "Материал",
+        "value": "Закалённое стекло, алюминиевый профиль"
+      },
+      {
+        "title": "Регион монтажа",
+        "value": "Москва и Московская область"
+      },
+      {
+        "title": "Изготовление",
+        "value": "Под заказ, срок изготовления 14–21 рабочих дней"
+      }
+    ]
+  },
+  {
+    "id": "327594126102",
+    "sku": "SR-RS-COM-3000x2400-AUTO",
+    "url": "https://stekloroll.ru/tproduct/1329696291-327594126102-prozrachnie-rolstavni-stekloroll-dlya-vi/",
+    "category": "shutters",
+    "parameters": [
+      {
+        "title": "Материал",
+        "value": "Монолитный поликарбонат, алюминиевый профиль"
+      },
+      {
+        "title": "Регион монтажа",
+        "value": "Москва и Московская область"
+      },
+      {
+        "title": "Изготовление",
+        "value": "Под заказ, срок изготовления 14–21 рабочих дней"
+      }
+    ]
+  },
+  {
+    "id": "337219104302",
+    "sku": "SR-RS-3000x2400-MAN",
+    "url": "https://stekloroll.ru/tproduct/1329696291-337219104302-prozrachnie-rolstavni-stekloroll-3000x24/",
+    "category": "shutters",
+    "parameters": [
+      {
+        "title": "Материал",
+        "value": "Монолитный поликарбонат, алюминиевый профиль"
+      },
+      {
+        "title": "Регион монтажа",
+        "value": "Москва и Московская область"
+      },
+      {
+        "title": "Изготовление",
+        "value": "Под заказ, срок изготовления 14–21 рабочих дней"
+      }
+    ]
+  }
+]
