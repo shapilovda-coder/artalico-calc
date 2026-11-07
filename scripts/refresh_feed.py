@@ -15,6 +15,7 @@ ORIGIN = 'https://stekloroll.ru'
 CATEGORIES = {'frameless': ('1', 'Безрамное остекление'),
               'partitions': ('2', 'Стеклянные перегородки'),
               'shutters': ('3', 'Прозрачные рольставни')}
+RETAINED_IDS = {'221295256522', '957708253232', '327594126102', '337219104302'}
 
 
 class Metadata(HTMLParser):
@@ -96,8 +97,16 @@ def product_from_page(item, html):
 
 def build(items, fetch=fetch_page, now=None):
     identities = [item['id'] for item in items]
-    if len(items) != 4 or len(set(identities)) != len(identities):
-        raise ValueError('Expected four unique retained offer IDs')
+    if len(set(identities)) != len(identities):
+        raise ValueError('Expected unique offer IDs')
+    if not RETAINED_IDS.issubset(identities):
+        raise ValueError('The four retained offer IDs must remain in this feed')
+    for field in ('sku', 'url'):
+        values = [item[field] for item in items]
+        if len(set(values)) != len(values):
+            raise ValueError('Expected unique product ' + field)
+    if any(item['category'] not in CATEGORIES for item in items):
+        raise ValueError('Unexpected product category')
     root = ET.Element('yml_catalog', date=(now or datetime.now(timezone.utc)).isoformat(timespec='seconds'))
     shop = ET.SubElement(root, 'shop')
     for key, value in [('name', 'StekloRoll'), ('company', 'ИП Карцев Артём Александрович'), ('url', ORIGIN + '/')]:
@@ -121,7 +130,7 @@ def build(items, fetch=fetch_page, now=None):
         for image in images:
             ET.SubElement(offer, 'picture').text = image
         ET.SubElement(offer, 'description').text = product['description']
-        ET.SubElement(offer, 'sales_notes').text = 'Предоплата; самовывоз; доставка по согласованию. Цена без монтажа.'
+        ET.SubElement(offer, 'sales_notes').text = item.get('sales_notes', 'Предоплата; самовывоз; доставка по согласованию. Цена без монтажа.')
         for parameter in item.get('parameters', []):
             ET.SubElement(offer, 'param', name=parameter['title']).text = parameter['value']
         ET.SubElement(offer, 'param', name='is_checkout_enabled').text = 'false'
@@ -149,7 +158,7 @@ def main():
     temporary = destination.with_suffix('.xml.tmp')
     tree.write(temporary, encoding='utf-8', xml_declaration=True)
     os.replace(temporary, destination)
-    print('Verified 4 product identities, current prices and images; feed refreshed.')
+    print(f'Verified {len(items)} product identities, current prices and images; feed refreshed.')
 
 
 if __name__ == '__main__':

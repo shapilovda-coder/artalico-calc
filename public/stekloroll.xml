@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<yml_catalog date="2026-11-07T14:16:43+00:00">
+<yml_catalog date="2026-11-07T15:13:27+00:00">
   <shop>
     <name>StekloRoll</name>
     <company>ИП Карцев Артём Александрович</company>
@@ -14,7 +14,7 @@
     </categories>
     <offers>
       <offer id="221295256522">
-        <name>Цельностеклянная перегородка StekloRoll 3000x2400 мм</name>
+        <name>Цельностеклянная перегородка StekloRoll для офиса 3000x2400 мм</name>
         <vendor>StekloRoll</vendor>
         <vendorCode>SR-GL-3000x2400</vendorCode>
         <url>https://stekloroll.ru/razdvizhnoe_bezramnoe_osteklenie/tproduct/1321766971-221295256522-tselnosteklyannaya-peregorodka-steklorol/</url>
@@ -31,7 +31,7 @@
         <param name="is_checkout_enabled">false</param>
       </offer>
       <offer id="957708253232">
-        <name>Безрамное остекление StekloRoll 3000x2400 мм</name>
+        <name>Безрамное раздвижное остекление StekloRoll 3000x2400 мм</name>
         <vendor>StekloRoll</vendor>
         <vendorCode>SR-FG-3000x2400</vendorCode>
         <url>https://stekloroll.ru/razdvizhnoe_bezramnoe_osteklenie/tproduct/1321766971-957708253232-bezramnoe-osteklenie-stekloroll-3000x240/</url>
@@ -82,6 +82,46 @@
         <param name="Материал">Монолитный поликарбонат, алюминиевый профиль</param>
         <param name="Регион монтажа">Москва и Московская область</param>
         <param name="Изготовление">Под заказ, срок изготовления 14–21 рабочих дней</param>
+        <param name="is_checkout_enabled">false</param>
+      </offer>
+      <offer id="SR-RS-900x1000-MAN">
+        <name>Прозрачные рольставни StekloRoll 900x1000 мм — ручной привод</name>
+        <vendor>StekloRoll</vendor>
+        <vendorCode>SR-RS-900x1000-MAN</vendorCode>
+        <url>https://stekloroll.ru/catalog/prozrachnye-rolstavni-900x1000-ruchnye/</url>
+        <price>26990.25</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>3</categoryId>
+        <picture>https://stekloroll.ru/prozrachnye-rolstavni/assets/gazebo-photo.webp</picture>
+        <description>Комплект прозрачных рольставней StekloRoll шириной 900 мм и высотой 1000 мм для небольшого проёма беседки, веранды или террасы. Ручное управление: ПИМ, защёлка и ручки. Цена за изделие 900×1000 мм. Доставка и монтаж в стоимость не входят и согласуются отдельно.</description>
+        <sales_notes>Предоплата. Цена без доставки и монтажа. Доставка и монтаж по согласованию.</sales_notes>
+        <param name="Ширина, мм">900</param>
+        <param name="Высота, мм">1000</param>
+        <param name="Управление">ПИМ, защёлка и ручки</param>
+        <param name="Материал">Монолитный поликарбонат, алюминиевый профиль</param>
+        <param name="Регион заказа">Москва и Московская область</param>
+        <param name="Изготовление">Под заказ, срок изготовления 14–21 рабочих дней</param>
+        <param name="Цена">Без доставки и монтажа</param>
+        <param name="is_checkout_enabled">false</param>
+      </offer>
+      <offer id="SR-RS-900x1000-AUTO-BUTTON">
+        <name>Прозрачные рольставни StekloRoll 900x1000 мм — электропривод с кнопкой</name>
+        <vendor>StekloRoll</vendor>
+        <vendorCode>SR-RS-900x1000-AUTO-BUTTON</vendorCode>
+        <url>https://stekloroll.ru/catalog/prozrachnye-rolstavni-900x1000-elektroprivod/</url>
+        <price>33244.81</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>3</categoryId>
+        <picture>https://stekloroll.ru/prozrachnye-rolstavni/assets/terrace-photo.webp</picture>
+        <description>Комплект прозрачных рольставней StekloRoll шириной 900 мм и высотой 1000 мм для небольшого проёма беседки, веранды или террасы. В комплекте электропривод и кнопка управления. Радиоуправление и пульт не входят. Цена за изделие 900×1000 мм. Доставка и монтаж в стоимость не входят и согласуются отдельно.</description>
+        <sales_notes>Предоплата. Цена без доставки и монтажа. Доставка и монтаж по согласованию.</sales_notes>
+        <param name="Ширина, мм">900</param>
+        <param name="Высота, мм">1000</param>
+        <param name="Управление">Электропривод и кнопка; без радиоуправления</param>
+        <param name="Материал">Монолитный поликарбонат, алюминиевый профиль</param>
+        <param name="Регион заказа">Москва и Московская область</param>
+        <param name="Изготовление">Под заказ, срок изготовления 14–21 рабочих дней</param>
+        <param name="Цена">Без доставки и монтажа</param>
         <param name="is_checkout_enabled">false</param>
       </offer>
     </offers>

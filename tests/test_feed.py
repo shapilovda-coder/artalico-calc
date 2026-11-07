@@ -50,6 +50,26 @@ class FeedTests(unittest.TestCase):
         with self.assertRaises(OSError):
             feed.build(self.items, fetch=failed)
 
+    def test_adds_distinct_size_without_replacing_existing_offers(self):
+        items = copy.deepcopy(self.items)
+        compact = copy.deepcopy(items[-1])
+        compact.update(id='SR-RS-1100x1000-MAN', sku='SR-RS-1100x1000-MAN',
+                       url='https://stekloroll.ru/catalog/prozrachnye-rolstavni-1100x1000/')
+        items.append(compact)
+        pages = {item['url']: self.html(item) for item in items}
+        tree = feed.build(items, fetch=pages.__getitem__)
+        self.assertEqual(len(tree.findall('.//offer')), 7)
+        self.assertEqual(tree.findall('.//offer')[-1].get('id'), compact['id'])
+        for field in ('sku', 'url'):
+            duplicate = copy.deepcopy(items)
+            duplicate[-1][field] = duplicate[0][field]
+            with self.subTest(field=field), self.assertRaisesRegex(ValueError, 'unique'):
+                feed.build(duplicate)
+
+    def test_cannot_drop_a_retained_offer_during_expansion(self):
+        with self.assertRaisesRegex(ValueError, 'retained'):
+            feed.build(self.items[1:])
+
 
 if __name__ == '__main__':
     unittest.main()
